@@ -1,0 +1,66 @@
+<div id="sidebar" class="active">
+	<div class="sidebar-wrapper active">
+		<div class="sidebar-header position-relative">
+			<div class="d-flex justify-content-between align-items-center">
+				<div class="logo">
+					<a href="/"><img src="/image/github.png" alt="Logo" srcset="" /></a>
+				</div>
+				<div class="sidebar-toggler x">
+					<a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="sidebar-menu">
+			<ul class="menu">
+				<li class="sidebar-title">Menu</li>
+
+				<li class="sidebar-item <% if (url == '/dashboard') { %> active <% } %>">
+					<a href="/dashboard/index" class="sidebar-link">
+						<i class="fa-solid fa-table-columns"></i>
+						<span>Dashboard</span>
+					</a>
+				</li>
+
+				<li class="sidebar-item <% if (url == '/dashboard/send-message') { %> active <% } %>">
+					<a href="/dashboard/send-message" class="sidebar-link">
+						<i class="fa-solid fa-paper-plane"></i>
+						<span>Send Message</span>
+					</a>
+				</li>
+
+				<li class="sidebar-item <% if (url == '/dashboard/history-message') { %> active <% } %>">
+					<a href="/dashboard/history-message" class="sidebar-link">
+						<i class="fa-solid fa-clock-rotate-left"></i>
+						<span>History Send Message</span>
+					</a>
+				</li>
+
+				<li class="sidebar-item <% if (url == '/dashboard/auto-reply') { %> active <% } %>">
+					<a href="/dashboard/auto-reply" class="sidebar-link">
+						<i class="fa-solid fa-reply"></i>
+						<span>Auto Reply</span>
+					</a>
+				</li>
+
+				<li class="sidebar-item">
+					<a href="https://www.postman.com/supply-meteorologist-96562615/workspace/baileys/collection/14456337-fb3349c5-de0e-40ec-b909-3922f4a95b7a" target="about:blank" class="sidebar-link">
+						<i class="fa-solid fa-network-wired"></i>
+						<span>API Doc</span>
+					</a>
+				</li>
+
+				<li class="sidebar-title">Others</li>
+
+				<li class="sidebar-item">
+					<li class="sidebar-item">
+						<a href="mailto:kenn@phantom-thieves.org" class="sidebar-link">
+							<i class="fas fa-envelope"></i>
+							<span>Contact</span>
+						</a>
+					</li>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
